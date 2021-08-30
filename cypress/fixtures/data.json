@@ -1,0 +1,99 @@
+{
+    "case_number": "65739",
+    "date_of_incident": "03/06/2021",
+    "time_of_incident": "1800",
+    "location_type": ["School", "Street"],
+    "incident_location": "Cafeteria",
+    "mile_marker": "",
+    "municipality": "Allendale, Bergen County",
+    "indoors_or_outdoors": ["Indoors"],
+    "lighting": ["Dawn/Dusk", "Artificial"],
+    "weather": ["Rain", "Cloudy"],
+    "video_footage": "Yes",
+    "video_footage_type": ["Body Worn", "Cell Phone"],
+    "origin_of_contact": ["Officer Initiated"],
+    "incident_type": ["Medical Emergency", "Trespassing"],
+
+    "filing_on_behalf_of_officer": true,
+    "reason_of_behalf_filing": "No Benchmark Account",
+    "officer_name": "Jessica Long",
+    "years_of_service": "4",
+    "age": "54",
+    "in_uniform": true,
+    "wearing_identifiers": true,
+    "hours_on_duty": "3",
+    "assignment": "Patrol",
+    "feet": "5",
+    "inches": "7",
+    "weight": "185",
+    "race": ["White", "Hispanic"],
+    "gender": "Male",
+    "rank": "Trooper",
+    "badge_number": "371950",
+    "other_officers": true,
+    "2_officer_outside_agency": true,
+    "2_officer_first_name": "Harold",
+    "2_officer_last_name": "Smith",
+    "2_officer_agency": "NJ Department of Public Safety",
+    "2_officer_on_duty": true,
+    "2_officer_in_uniform": true,
+
+    "subject_type": "Person",
+    "subject_first_name": "John",
+    "subject_last_name": "Smith",
+    "subject_m_i": "J",
+    "subject_feet": "5",
+    "subject_inches": "9",
+    "subject_weight": "165",
+    "subject_age": "56",
+    "subject_race": ["Black", "White"],
+    "subject_gender": "Male",
+    "subject_transgender": true,
+    "subject_gender_identity": "Female",
+    "subject_limited_english": "Yes",
+    "subject_condition": ["Under influence of alcohol/drugs/both", "Potential Mental Health Incident"],
+    "subject_arrested": false,
+    "subject_reason_for_no_arrest": ["Deceased"],
+    "subject_charged": true,
+    "subject_charges": ["Agg. Assault", "Criminal Attempt", "Harassment"],
+
+    "subjects": [
+        {
+        "type_of_resistance": ["Verbal", "Dead-weight tactics (going limp)", "Attempt to flee"],
+        "subject_actions": ["Attempt to commit crime", "Threat with Motor vehicle"]
+        },
+        {
+        "type_of_resistance": ["Dead-weight tactics (going limp)", "Attempt to flee"],
+        "subject_actions": ["Biting", "Spitting"]
+        }
+    ],
+    "officers": [
+        {
+            "officer_name": ["Austin Lucas"],
+            "force_used": ["Struck"],
+            "force_applied_on": ["Victim"]
+        },
+        {
+            "officer_name": ["Austin Lucas"],
+            "force_used": ["Used arm bar on"],
+            "force_applied_on": ["Victim"]
+        }
+    ],
+
+
+    "officer_injured": true,
+    "medical_treatment": ["EMS on scene"],
+    "injury_type": ["Gunshot Wound", "Concussion"],
+    "subject_injured_before_incident": "No",
+    "subject_injured_in_incident": "Yes",
+    "subject_type_of_injury": ["Chest pains/shortness of breath"],
+    "subject_medical_treatment": "Refused"
+
+
+
+
+
+
+
+
+}
