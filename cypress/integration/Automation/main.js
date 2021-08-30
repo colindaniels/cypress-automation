@@ -61,7 +61,7 @@ context('Actions', () => {
       if (data.filing_on_behalf_of_officer == true) {
         cy.fill_input(':nth-child(2) > .bdm-col-first > .ant-row > .ant-form-item-control-wrapper > .ant-form-item-control > .ant-form-item-children > .ant-select > .ant-select-selection', data.reason_of_behalf_filing)
       }
-      cy.fill_input('#fieldField46', data.officer_name)
+      cy.fill_input('#fieldField159', data.officer_name)
       cy.fill_input('#fieldField671', data.years_of_service)
       cy.fill_input('#fieldField727', data.age)
       cy.checkbox('#fieldField941', data.in_uniform)
@@ -69,13 +69,13 @@ context('Actions', () => {
         cy.checkbox('#fieldField488', data.wearing_identifiers)
       }
       cy.fill_input('#fieldField220', data.hours_on_duty)
-      cy.fill_input(':nth-child(9) .ant-select-selection__placeholder', data.assignment)
+      cy.fill_input(':nth-last-child(1) > .bdm-col-first > .ant-row > .ant-form-item-control-wrapper > .ant-form-item-control > .ant-form-item-children > .ant-select > .ant-select-selection', data.assignment)
       cy.fill_input('#fieldField735', data.feet)
       cy.fill_input('#fieldField344', data.weight)
       cy.fill_input('#fieldField538', data.inches)
       cy.fill_input('#fieldField755', data.race)
       cy.fill_input('.bdm-col-last .ant-select-selection', data.gender)
-      cy.fill_input(':nth-child(4) .ant-select-selection', data.rank)
+      cy.fill_input('.bdm-form-section-first > :nth-child(4) .ant-select-selection', data.rank)
       cy.fill_input('#fieldField804', data.badge_number)
       cy.checkbox('#officerOtherOfficerRespond', data.other_officers)
       cy.get('#officerOtherRespondingOfficers\\[0\\]\\.fieldField252').click()
