@@ -60,8 +60,12 @@ context('Actions', () => {
       cy.checkbox('#fieldField436', data.filing_on_behalf_of_officer)
       if (data.filing_on_behalf_of_officer == true) {
         cy.fill_input(':nth-child(2) > .bdm-col-first > .ant-row > .ant-form-item-control-wrapper > .ant-form-item-control > .ant-form-item-children > .ant-select > .ant-select-selection', data.reason_of_behalf_filing)
+
       }
-      cy.fill_input('#fieldField159', data.officer_name)
+      else if (data.filing_on_behalf_of_officer == false) {
+      }
+      cy.fill_input('.ant-select-search__field__wrap > .ant-input', data.officer_name)
+      
       cy.fill_input('#fieldField671', data.years_of_service)
       cy.fill_input('#fieldField727', data.age)
       cy.checkbox('#fieldField941', data.in_uniform)
@@ -78,15 +82,15 @@ context('Actions', () => {
       cy.fill_input('.bdm-form-section-first > :nth-child(4) .ant-select-selection', data.rank)
       cy.fill_input('#fieldField804', data.badge_number)
       cy.checkbox('#officerOtherOfficerRespond', data.other_officers)
-      cy.get('#officerOtherRespondingOfficers\\[0\\]\\.fieldField252').click()
-      if (data['2_officer_outside_agency'] == true) {
+      if (data['officerOtherOfficerRespond'] == true) {
+        cy.fill_input('#officerOtherRespondingOfficers\\[0\\]\\.fieldField252', data['2_officer_outside_agency'])
         cy.fill_input('#officerOtherRespondingOfficers\\[0\\]\\.fieldField849', data['2_officer_first_name'])
         cy.fill_input('#officerOtherRespondingOfficers\\[0\\]\\.fieldField215', data['2_officer_last_name'])
         cy.fill_input('#officerOtherRespondingOfficers\\[0\\]\\.fieldField40', data['2_officer_agency'])
-      }
-      cy.checkbox('#officerOtherRespondingOfficers\\[0\\]\\.fieldField133', data['2_officer_on_duty'])
-      if (data['2_officer_on_duty'] == true) {
-        cy.checkbox('#officerOtherRespondingOfficers\\[0\\]\\.fieldField515', data['2_officer_in_uniform'])
+        cy.checkbox('#officerOtherRespondingOfficers\\[0\\]\\.fieldField133', data['2_officer_on_duty'])
+        if (data['2_officer_on_duty'] == true) {
+          cy.checkbox('#officerOtherRespondingOfficers\\[0\\]\\.fieldField515', data['2_officer_in_uniform'])
+        }
       }
 
       cy.get('.ant-steps-item').eq(2).click()

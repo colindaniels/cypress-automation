@@ -1,106 +1,82 @@
 {
-    "case_number": 96645,
-    "date_of_incident": "2020-01-31",
-    "time_of_incident": "0528",
+    "case_number": "87199",
+    "date_of_incident": "2020-01-19",
+    "time_of_incident": "2277",
     "location_type": [
-        "Street",
-        "Hospital",
-        "Residence",
-        "Police Station",
-        "Restaurant",
-        "Court House",
-        "Jail/Prison",
-        "School",
-        "Alcohol Establishment (bar, club, casino)"
+        "Police Station"
     ],
-    "incident_location": "The beach",
+    "incident_location": "School",
     "mile_marker": "",
-    "municipality": "Montville, Morris County",
+    "municipality": "Runnemede, Camden County",
     "indoors_or_outdoors": [
-        "Outdoors"
+        "Indoors"
     ],
     "lighting": [
         "Dawn/Dusk",
         "Daylight",
-        "Artificial",
         "Darkness"
     ],
     "weather": [
-        "Snow/Sleet/Ice",
-        "Clear"
+        "Fog",
+        "Rain",
+        "Cloudy"
     ],
     "video_footage": "No",
     "video_footage_type": [
-        "Station House",
         "Motor Vehicle",
-        "CED Camera"
+        "Residential/Home"
     ],
     "origin_of_contact": [
-        "Citizen Initiated",
-        "Officer Dispatched",
-        "Officer Initiated"
+        "Pre-Planned Contact"
     ],
     "incident_type": [
-        "Terroristic Threats",
-        "Disturbance (drinking, fighting, disorderly)",
-        "Possession of CDS",
-        "MV/Traffic Stop",
-        "Distribution of CDS",
-        "Domestic",
-        "Robbery",
-        "Burglary",
-        "Subject with a gun",
-        "Theft/Shoplifting",
-        "Suspicious person",
-        "Medical Emergency"
+        "Burglary"
     ],
     "filing_on_behalf_of_officer": false,
     "reason_of_behalf_filing": "Incapacitated/ Injury",
-    "officer_name": "Vincent Stuart",
-    "years_of_service": 8,
-    "age": 58,
+    "officer_name": "Vincent Snyder",
+    "years_of_service": "10",
+    "age": "1023",
     "in_uniform": false,
-    "wearing_identifiers": false,
-    "hours_on_duty": 4,
+    "wearing_identifiers": true,
+    "hours_on_duty": "7",
     "assignment": "Specialized Unit/Other",
-    "feet": 5,
-    "inches": 9,
-    "weight": 115,
+    "feet": "6",
+    "inches": "2",
+    "weight": "187",
     "race": [
-        "Asian/Pacific Islander",
-        "Am. Indian",
         "Other",
-        "Hispanic"
+        "Am. Indian",
+        "Asian/Pacific Islander"
     ],
-    "gender": "Gender Non-Conforming/X",
-    "rank": "SLEO III",
-    "badge_number": 61146,
+    "gender": "Male",
+    "rank": "SFC",
+    "badge_number": "24559",
     "other_officers": true,
     "2_officer_outside_agency": false,
-    "2_officer_first_name": "Dorthy",
-    "2_officer_last_name": "Hernandez",
-    "2_officer_agency": "Ashkum Police Department",
-    "2_officer_on_duty": false,
-    "2_officer_in_uniform": false,
+    "2_officer_first_name": "Bailey",
+    "2_officer_last_name": "Calaf",
+    "2_officer_agency": "Pekin Police Department",
+    "2_officer_on_duty": true,
+    "2_officer_in_uniform": true,
     "subject_type": "Person",
-    "subject_first_name": "Susan",
-    "subject_last_name": "Houser",
-    "subject_m_i": "H",
-    "subject_feet": 5,
-    "subject_inches": 10,
-    "subject_weight": 266,
-    "subject_age": 61,
+    "subject_first_name": "Kenneth",
+    "subject_last_name": "Williamson",
+    "subject_m_i": "J",
+    "subject_feet": "5",
+    "subject_inches": "4",
+    "subject_weight": "124",
+    "subject_age": "25",
     "subject_race": [
-        "White"
+        "Asian/Pacific Islander"
     ],
-    "subject_gender": "Gender Non-Conforming/X",
-    "subject_transgender": false,
+    "subject_gender": "Male",
+    "subject_transgender": true,
     "subject_gender_identity": "Male",
     "subject_limited_english": "No",
     "subject_condition": [
-        "No unusual condition noted",
-        "Under influence of alcohol/drugs/both",
-        "Potential Mental Health Incident"
+        "Other unusual condition noted",
+        "No unusual condition noted"
     ],
     "subject_arrested": true,
     "subject_reason_for_no_arrest": [
@@ -108,116 +84,59 @@
     ],
     "subject_charged": false,
     "subject_charges": [
-        "Agg. Assault on a Police Officer",
-        "Disarming law enforcement",
-        "Throwing bodily fluids",
         "Assault  simple",
-        "Criminal mischief",
-        "Disorderly conduct",
-        "CDS  Distribution",
-        "Agg. Assault",
-        "Unspecified at this time",
-        "Resisting arrest",
-        "Eluding/Escape",
         "Robbery",
-        "Tampering with evidence",
-        "Receiving Stolen Property",
-        "Hindering/Obstruction",
-        "Carjacking"
+        "Lewdness",
+        "Theft"
     ],
     "subjects": [
         {
             "type_of_resistance": [
-                "Dead-weight tactics (going limp)",
-                "Verbal",
-                "Attempt to flee ",
-                "Non-response (consciously ignoring)",
-                "Resistive tension (stiffening, tighening muscles)",
-                "ActiveResistive tension (stiffening, tighening muscles)Attempt to flee Aggressive resistance (attempt to attack or harm)"
+                "Dead-weight tactics (going limp)"
             ],
             "subject_actions": [
-                "Attack with Motor Vehicle ",
-                "Threat with Gun",
-                "Attack with Edge Weapon ",
-                "Other Attack",
-                "Threat with Blunt object ",
-                "Threat with Other Weapon ",
-                "ThreatsVerbal/Fighting stance ThreatThreat with Hands,fists,legsThreat with Blunt object Threat with Edge WeaponThreat with Motor vehicleThreat with Bodily FluidsThreat with GunThreat with Other Weapon ",
-                "Threat with Bodily Fluids",
-                "Attack with Hands,fists,legs",
-                "Prevent harm to another",
-                "Threat with Motor vehicle",
-                "Verbal/Fighting stance Threat",
-                "Attack with Blunt object ",
-                "Attempt to escape from Custody",
-                "Attempt to self-harm",
-                "Attack with Bodily fluids",
-                "Spitting",
-                "Threat with Edge Weapon",
-                "Threat with Hands,fists,legs",
-                "Attempt to commit crime",
-                "Other Threat "
-            ]
-        },
-        {
-            "type_of_resistance": [
-                "PassiveNon-response (consciously ignoring)Dead-weight tactics (going limp)",
-                "Verbal",
-                "Dead-weight tactics (going limp)",
-                "Non-response (consciously ignoring)",
-                "Resistive tension (stiffening, tighening muscles)",
-                "Aggressive resistance (attempt to attack or harm)",
-                "ActiveResistive tension (stiffening, tighening muscles)Attempt to flee Aggressive resistance (attempt to attack or harm)"
-            ],
-            "subject_actions": [
-                "Fired Gun",
-                "Attempt to self-harm",
-                "Attack with Bodily fluids",
-                "Attempt to commit crime"
+                "Attack with Bodily fluids"
             ]
         }
     ],
     "officers": [
         {
             "officer_name": [
-                "Austin Lucas"
+                [
+                    "Austin Lucas"
+                ]
             ],
-            "force_used": "Used arms",
+            "force_used": [
+                [
+                    "Used fists/punch"
+                ]
+            ],
             "force_applied_on": [
-                "Victim"
+                [
+                    "Victim"
+                ]
             ]
         }
     ],
     "officer_injured": true,
     "medical_treatment": [
-        "Hospital"
+        "Officer Administered First Aid"
     ],
     "injury_type": [
-        "Chest pains/shortness of breath",
-        "Abrasion/Laceration/Puncture",
-        "Fracture/dislocation",
-        "Gunshot wound",
-        "Complaint of pain",
-        "Concussion",
-        "Other",
-        "Unknown"
+        "Abrasion/Laceration/Puncture"
     ],
     "subject_injured_before_incident": "No",
-    "subject_injured_in_incident": "Yes",
+    "subject_injured_in_incident": "No",
     "subject_type_of_injury": [
-        "Complaint of pain",
-        "Concussion",
-        "Contusion/bruise",
-        "Gunshot wound",
-        "Fracture/dislocation",
-        "Abrasion/Laceration/Puncture",
         "Unknown",
-        "Other"
+        "Contusion/bruise",
+        "Chest pains/shortness of breath",
+        "Complaint of pain"
     ],
     "subject_medical_treatment": [
+        "Urgent Care",
         "Refused",
-        "Hospital",
-        "Officer Administered First Aid",
-        "EMS on scene"
+        "EMS on scene",
+        "Hospital"
     ]
 }

@@ -8,6 +8,16 @@ import pprint
 with open('data/randomData.json') as f:
   data = json.load(f)
 
+def random_exp(max):
+    nums = 1
+    for i in range(max-1):
+        if random.random() >= 0.5:
+            nums = nums + 1
+        else:
+            break
+    return nums
+
+
 def randomDate(start_date, end_date):
     time_between_dates = end_date - start_date
     days_between_dates = time_between_dates.days
@@ -15,7 +25,7 @@ def randomDate(start_date, end_date):
     return start_date + datetime.timedelta(days=random_number_of_days)
 
 def pickRandomsFromList(lst):
-    return random.sample(lst, random.randrange(1, len(lst) + 1))
+    return random.sample(lst, random_exp(len(lst)))
 
 def pickOneFromList(lst):
     return random.choice(lst)
@@ -27,7 +37,7 @@ def randomBoolean():
     return bool(random.getrandbits(1))
 
 # Incident
-case_number = random.randrange(10000, 99999)
+case_number = str(random.randrange(10000, 99999))
 date_of_incident = str(randomDate(datetime.date(2020, 1, 1), datetime.date(2020, 2, 1)))
 time_of_incident = f'{random.randrange(0, 2400):04}'
 location_type = pickRandomsFromList(data['location_type'])
@@ -46,19 +56,19 @@ incident_type = pickRandomsFromList(data['incident_type'])
 filing_on_behalf_of_officer = randomBoolean()
 reason_of_behalf_filing = pickOneFromList(data['reason_of_behalf_filing'])
 officer_name = pickOneFromList(data['officer_name'])
-years_of_service = random.randint(0, 20)
-age = years_of_service + random.randint(18, 60)
+years_of_service = str(random.randint(0, 20))
+age = years_of_service + str(random.randint(18, 60))
 in_uniform = randomBoolean()
 wearing_identifiers = randomBoolean()
-hours_on_duty = random.randint(0, 9)
+hours_on_duty = str(random.randint(0, 9))
 assignment = pickOneFromList(data['assignment'])
-feet = random.randint(5, 7)
-inches = random.randint(0, 12)
-weight = random.randint(100, 300)
+feet = str(random.randint(5, 7))
+inches = str(random.randint(0, 12))
+weight = str(random.randint(100, 300))
 race = pickRandomsFromList(data['race'])
 gender = pickOneFromList(data['gender'])
 rank = pickOneFromList(data['rank'])
-badge_number = random.randint(100, 99999)
+badge_number = str(random.randint(100, 99999))
 other_officers = randomBoolean()
 second_officer_outside_agency = randomBoolean()
 second_officer_first_name = names.get_first_name()
@@ -72,10 +82,10 @@ subject_type = 'Person'
 subject_first_name = names.get_first_name()
 subject_last_name = names.get_last_name()
 subject_m_i = random.choice(string.ascii_letters).upper()
-subject_feet = random.randint(5, 7)
-subject_inches = random.randint(0, 12)
-subject_weight = random.randint(100, 300)
-subject_age = random.randint(14, 70)
+subject_feet = str(random.randint(5, 7))
+subject_inches = str(random.randint(0, 12))
+subject_weight = str(random.randint(100, 300))
+subject_age = str(random.randint(14, 70))
 subject_race = pickRandomsFromList(data['race'])
 subject_gender = pickOneFromList(data['gender'])
 subject_transgender = randomBoolean()
@@ -98,9 +108,9 @@ for i in range(n_of_subjects):
 
 officers = [
     {
-        "officer_name": ["Austin Lucas"],
-        "force_used": pickOneFromList(data['force_used']),
-        "force_applied_on": ["Victim"]
+        "officer_name": [["Austin Lucas"]],
+        "force_used": [[pickOneFromList(data['force_used'])]],
+        "force_applied_on": [["Victim"]]
     }
 ]
 # Injuries
@@ -185,5 +195,5 @@ fullDict = {
 }
 
 import json
-with open('data/data.json', 'w') as fp:
+with open('./cypress/fixtures/data.json', 'w') as fp:
     json.dump(fullDict, fp, indent=4)

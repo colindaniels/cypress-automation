@@ -751,7 +751,6 @@
     "Potential Mental Health Incident",
     "MV/Traffic Stop",
     "Pedestrian Stop",
-    "Possible Crime in ProgressAssaultBurglaryDistribution of CDSDisturbance (drinking, fighting, disorderly)DomesticEludingPossession of CDSReport of GunfireRobberySubject with a gunSubject with other weaponSuspicious personTerroristic ThreatsTheft/ShopliftingTrespassing Wanted PersonOther",
     "Assault",
     "Burglary",
     "Distribution of CDS",
@@ -1745,10 +1744,8 @@
   ],
   "type_of_resistance": [
     "Verbal",
-    "PassiveNon-response (consciously ignoring)Dead-weight tactics (going limp)",
     "Non-response (consciously ignoring)",
     "Dead-weight tactics (going limp)",
-    "ActiveResistive tension (stiffening, tighening muscles)Attempt to flee Aggressive resistance (attempt to attack or harm)",
     "Resistive tension (stiffening, tighening muscles)",
     "Attempt to flee ",
     "Aggressive resistance (attempt to attack or harm)"
@@ -1759,7 +1756,7 @@
     "Attempt to escape from Custody",
     "Attempt to self-harm",
     "Prevent harm to another",
-    "ThreatsVerbal/Fighting stance ThreatThreat with Hands,fists,legsThreat with Blunt object Threat with Edge WeaponThreat with Motor vehicleThreat with Bodily FluidsThreat with GunThreat with Other Weapon ",
+    "Verbal/Fighting stance Threat",
     "Verbal/Fighting stance Threat",
     "Threat with Hands,fists,legs",
     "Threat with Blunt object ",
@@ -1769,7 +1766,6 @@
     "Threat with Gun",
     "Threat with Other Weapon ",
     "Other Threat ",
-    "AttacksBitingSpittingAttack with Hands,fists,legsAttack with Blunt object Attack with Edge Weapon Attack with Motor Vehicle Attack with Bodily fluidsFired GunAttack with Other WeaponOther Attack",
     "Biting",
     "Spitting",
     "Attack with Hands,fists,legs",
@@ -1783,7 +1779,6 @@
     "Resisted arrest/police officer control"
   ],
   "force_used": [
-    "Physical ForceUsed pressure points onUsed take down onUsed arm bar onUsed fists/punchUsed legs/kicksUsed armsUsed head",
     "Used pressure points on",
     "Used take down on",
     "Used arm bar on",
@@ -1791,15 +1786,20 @@
     "Used legs/kicks",
     "Used arms",
     "Used head",
-    "Mechanical ForceDischarged Chemical atStruckDeployed canine for takedown atCanine bit (apprehension)Canine bit (spontaneous)",
-    "Discharged Chemical at",
-    "Struck",
+    "Used pressure points on",
+    "Used take down on",
+    "Used arm bar on",
+    "Used fists/punch",
+    "Used legs/kicks",
+    "Used arms",
+    "Used head",
     "Deployed canine for takedown at",
     "Canine bit (apprehension)",
     "Canine bit (spontaneous)",
-    "Enhanced MechanicalUsed CED on",
+    "Discharged Chemical at",
+    "Struck",
+    "Deployed canine for takedown at",
     "Used CED on",
-    "Deadly ForceDischarged Firearm at",
     "Discharged Firearm at"
   ],
   "medical_treatment": [
@@ -1817,7 +1817,6 @@
     "Concussion",
     "Chest pains/shortness of breath",
     "Gunshot wound",
-    "Unknown",
-    "Other"
+    "Unknown"
   ]
 }
